@@ -1,0 +1,34 @@
+<div class="collaborator-card">
+  <div class="collaborators-list-menu">
+    <span class="menu"> ID: </span>
+    <span>
+      {{ collaborator?.id }}
+    </span>
+  </div>
+
+  <div class="collaborators-list-menu">
+    <span class="menu"> Nome: </span>
+    <span>
+      {{ collaborator?.nome }}
+    </span>
+  </div>
+
+  <div class="collaborators-list-menu">
+    <span class="menu"> Cargo: </span>
+    <span>
+      {{ collaborator?.cargo }}
+    </span>
+  </div>
+
+  <div class="collaborators-list-menu">
+    <span class="menu"> Salário R$: </span>
+    <span>
+      {{ collaborator?.salario }}
+    </span>
+  </div>
+
+  <div class="button-container">
+    <button (click)="removeCollaborator()">Remover</button>
+  </div>
+
+</div>
